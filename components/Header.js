@@ -1,10 +1,13 @@
-import Slider from './Slider'
 import Menu from './Menu'
+import Slider from './Slider'
+
+import Carousel from './Carousel'
 
 const Header = () => (
 
     <div id="header">
-        <Slider/>
+        <Carousel/>
+        {/* <Slider/> */}
         <Menu/>
     </div>
 )

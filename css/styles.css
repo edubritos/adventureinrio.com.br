@@ -29,7 +29,7 @@ html {
 }
 
 #navplaces:focus, #navagency, #navguide, #navcar, #navcontact {
-  /* display: hidden; */
+  display: hidden;
   margin: 20% 0;
 }
 
@@ -66,7 +66,7 @@ nav.menu .submenu a {
   font-weight: 400;
   text-decoration: none;
   text-align: center;
-  border-radius: 10px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,6 +75,8 @@ nav.menu .submenu a {
 
 nav.menu a:hover {
   background-color: rgba(3, 3, 3, 0.164);
+  height: 85%;
+  border-radius: 5px;
 }
 
 .efeitoGrow {
@@ -86,7 +88,6 @@ nav.menu a:hover {
   -webkit-transition-property: transform;
   transition-property: transform;
   width: 100px;
-  height: 50px;
 }
 
 .efeitoGrow:hover, .efeitoGrow:focus, .efeitoGrow:active {
@@ -178,7 +179,6 @@ div .slider img {
 
 #places .imgpl2 img {
   width: 220px;
-  /* height: 300px; */
   margin: 10px 0;
   padding: 0 20px;
   border-radius: 2em;
@@ -313,7 +313,7 @@ div .slider img {
 
 /* @medias ******************************************************* */
 
-@media (max-width:770px) {
+@media (max-width:840px) {
   .logo {
     width: 50px;
     height: 50px;
@@ -323,20 +323,21 @@ div .slider img {
     display: flex;
     justify-content: flex-end;
   }
-  nav.menu div.submenu {
+  .menu .submenu {
     flex-wrap: wrap;
-    width: 110px;
-    margin: 0 30px;
+    width: 120px;
+    margin-left: 10%;
   }
-  nav.menu div.hide {
+  .menu .hide {
     overflow: hidden;
   }
   .menu .submenu a {
     font-size: 10px;
     background-color: rgba(255, 255, 255, 0.6);
   }
-  nav.menu a:hover {
+  .menu .submenu a:hover {
     background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.0);
   }
   a#menuimg {
     display: flex;
@@ -348,7 +349,7 @@ div .slider img {
     background-color: rgba(0, 0, 0, 0);
   }
   .rotate {
-    animation: rotation ease-in-out 1s;
+    animation: rotation ease-in-out 1s ;
     animation-iteration-count: 1;
     transform-origin: 50% 50%;
   }
@@ -365,7 +366,6 @@ div .slider img {
   }
   #places .imgpl1 img, #places .imgpl2 img, #places .imgpl2 img:nth-child(2) {
     width: 90%;
-    /* height: 90%; */
     margin: 10px 0;
   }
   #guide {

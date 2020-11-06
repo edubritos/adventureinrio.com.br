@@ -5,13 +5,13 @@ const Slider = () => (
         <Carousel interval={4000}>
             <Carousel.Item >
                 <img
-                    src="../static/slider/pg5.jpg"
+                    src="../static/slider/pg.jpg"
                     alt="First slide"
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    src="../static/gavea/gavea7.jpg"
+                    src="../static/slider/pg3.jpg"
                     alt="Second slide"
                 />
             </Carousel.Item>

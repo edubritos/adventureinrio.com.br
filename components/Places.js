@@ -2,8 +2,8 @@ const Places = () => (
 
     <div id="places">
         <h2 className="titles">Roteiros</h2>
+        <h3 className="subtitle">Pedra da Gávea</h3>
         <ul>
-            <h3 className="subtitle">Pedra da Gávea</h3>
             <li>
                 <p>
                     A trilha Pedra da Gávea é a mais clássica da cidade do Rio de Janeiro, ideal para
@@ -31,10 +31,10 @@ const Places = () => (
                     A descida pelo trecho de escalada da carrasqueira é feita por uma técnica similar ao rapel,
                     onde quem irá controlar a descida e os equipamentos será o guia, oferecendo para o seu grupo
                     muito mais segurança. Você e seus amigos só precisarão aproveitar o momento e bater muitas fotos.
-                    <br /><br />
-                    <h5>A Adventure in Rio tem saídas diárias, entre em contato e venha conhecer a Pedra da Gávea.</h5>
-                    <h5>Valor R$ 150,00</h5>
+                    <br />
                 </p>
+                <h5>A Adventure in Rio tem saídas diárias, entre em contato e venha conhecer a Pedra da Gávea.</h5>
+                <h5>Valor R$ 150,00</h5>
                 <div className="imgpl1 ">
                     <img src="./static/gavea/gavea5.jpg" alt="Vista da Barra da Tijuca" />
                     <img src="./static/gavea/gavea3.jpg" alt="Tamanduá mirim" />
@@ -64,11 +64,10 @@ const Places = () => (
                     Depois de curtir a vista da Pedra do Telegrafo, seguiremos pela orla da cidade do Rio de Janeiro,
                     em um tour panorâmico pelas belas praias da zona oeste.
                     Banho de mar e almoço opcional na Prainha.
-                <br/><br/>
+                <br />
+                </p>
                 <h5>A Adventure in Rio tem saídas diárias, entre em contato e venha conhecer um Rio de Janeiro diferente.</h5>
                 <h5>Valor R$ 500,00</h5>
-
-                </p>
                 <div className="imgpl1">
                     <img src="./static/telegrafo/telegrafo1.jpg" alt="Pedra do Telégrafo" />
                     <img src="./static/telegrafo/telegrafo.jpg" alt="Vista da restinga de Marambaia" />
@@ -86,6 +85,8 @@ const Places = () => (
                     lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a
                     ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
                 </p>
+                <h5>A Adventure in Rio tem saídas diárias, entre em contato e venha conhecer um Rio de Janeiro diferente.</h5>
+                <h5>Valor R$ 500,00</h5>
                 <div className="imgpl1">
                     <img src="./static/selada/pedraselada.jpg" alt="Vista do cume da Pedra Selada" />
                     <img src="./static/selada/pedraselada1.jpg" alt="Pedra Selada" />
@@ -103,6 +104,8 @@ const Places = () => (
                     lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a
                     ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
                 </p>
+                <h5>A Adventure in Rio tem saídas diárias, entre em contato e venha conhecer um Rio de Janeiro diferente.</h5>
+                <h5>Valor R$ 500,00</h5>
                 <div className="imgpl1">
                     <img src="./static/pnt/pnt.jpg" alt="Cascatinha Taunay" />
                     <img src="./static/pnt/pnt1.jpg" alt="Estrada do Excelsior" />
@@ -119,6 +122,8 @@ const Places = () => (
                     lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a
                     ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
                 </p>
+                <h5>A Adventure in Rio tem saídas diárias, entre em contato e venha conhecer um Rio de Janeiro diferente.</h5>
+                <h5>Valor R$ 500,00</h5>
                 <div className="imgpl1">
                     <img src="./static/slider/pda.jpg" alt="Vista do bondingo do Pão de Açúcar" />
                     <img src="./static/slider/pda.jpg" alt="Vista do bondingo do Pão de Açúcar" />
